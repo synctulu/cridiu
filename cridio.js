@@ -1,6 +1,7 @@
 const AuthDetails = require('./data/auth.json')
 const Discord = require('discord.js');
 const client = new Discord.Client();
+require('dotenv').config();
 
 //ready event is vital
 client.on('ready', () => {
